@@ -1,0 +1,62 @@
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.eggs/
+*.manifest
+*.spec
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Temporary files
+temp_input.csv
+topsis_result.csv
+output.csv
+result.csv
+*.tmp
+
+# CSV data files (optional - uncomment if you don't want to push data)
+# *.csv
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
